@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #top li{
+            display: inline;
+            margin-left: 2vw;
+            opacity: 5;
+        }
+        #main{
+            margin-top: 0vh;
+            margin-left: 0vw;
+            /* margin-right: 0vw; */
+            padding-top: 3vh;
+            padding-left: 3vw;
+            /* border: 2px solid black; */
+            /* margin-bottom: 50vh; */
+        }
+        #topdiv h3{
+            display: inline;
+        }
+        #top{
+            align-items: right;
+            margin-left: 50vw;
+            margin-top: 3vh;
+            padding-bottom: 3px;
+        }
+        #bo li{
+            display: inline;
+            padding: 35px;
+            /* padding-top: 50px; */
+            /* padding-bottom: 50px; */
+            /* margin-top: 45vh; */
+            font-size: 17px;
+            /* border:1px solid black; */
+        }
+        #bod{
+            display: flex;
+        }
+        #sp{
+            Color: blue;
+
+        }
+        #sidep{
+            padding-left: 35px;
+            margin-left: 2.5vw;
+            padding-top: 3vh;
+            border-right: 1px solid grey;
+            padding-right: 10px;
+            /* margin-right: 80vw; */
+            margin-top: 0;
+        }
+        #Sign{
+            color: blue;
+            border: 1px solid blue;
+            font-size: 20px;
+            padding: 3px;
+            background-color: white;
+        }
+        hr{
+            opacity: 30%;
+        }
+        #der{
+            padding: 5px,5px,5px,5px;
+        }
+        .rt{
+            border-bottom: 2px solid rgb(228, 219, 219);
+
+            padding-bottom: 3vh;
+        }
+        #hap{
+            padding-top: 3vh;
+            size: 20px;
+        }
+        #lko{
+            margin-left: 0px;
+            padding-left: 0px;
+            margin-top: 4vh;
+        }
+        body{
+
+            background-color: black;
+            color: white;
+            background-blend-mode: overlay;
+        }
+        #lko li{
+            display:inline;
+            /* border: 2px solid red; */
+            margin-left: 0;
+            /* padding: 20px; */
+        }
+        .py{
+            border-bottom: none;
+        }
+        #tag{
+            padding: 15px;
+        }
+        #pt{
+            margin: 0;
+            padding-right: 25px;
+        }
+        
+        #ren{
+            align-items: right;
+            color:blue;
+            border: none;
+            background-color: none;
+            margin-left:10vw;
+        }
+       
+        .ikl{
+            display:inline;
+        }
+        #des{
+            border-radius: 4cm;
+            background-color: white;
+            color: black;
+            padding: 3px,3px,3px,3px;
+            width:100px;
+        }
+        #ws{
+            display:inline-block;
+            /* padding-bottom:; */
+        }
+        .pdc{
+            display:block;
+            margin-top: 50px;
+            /* border: 2px solid red; */
+            /* padding-bottom: 500px; */
+
+        }
+       th{
+        padding-bottom: 50px;
+       }
+       
+        td{
+            display: inline;
+            background-color: gray;
+            color: white;
+            /* margin-left: 50px; */
+            padding-left: 0px;
+            width:570px;
+            height: 30px;
+            border: 6px solid gray;
+        }
+        table{
+            margin-left: 10vw ;
+            margin-top: 10vh;
+        }
+       
+        .quest{
+            background-color: blue;
+            /* width:2700px; */
+            /* height: 300px; */
+            border: 20px solid blue;
+            justify-content: center;
+            margin-left: 100px;
+            /* padding-right: 100px; */
+        }
+        .headi{
+            background-color: blue;
+            color: white;
+            width: 150px;
+            height: 45px;
+            padding-bottom: 0px;
+            margin-left: 0px;
+            border: 20px solid blue;
+            
+
+        }
+        .rowi{
+            background-color: grey;
+            color: white;
+            width: 150px;
+            height: 45px;
+            padding-bottom: 0px;
+
+        }
+        thead{
+            background-color: red;
+        }
+ </style>
+</head>
+<body>
+    <nav>
+        <div id="topdiv">
+            <!-- <h3>Codechef </h3> -->
+            <ul id="top">
+              <li>  Learn</li>
+              <li>  Practice</li>
+              <li>  Compete</li>
+              <li id="upg">Upgrade to pro    |</li>
+              <li><a>Login</a> </li>
+              <li id="Sign">Sign Up</li>
+
+            </ul>
+            <!-- <br> -->
+            <hr>
+        </div>
+    </nav>
+    <br>
+    
+    <div id="bo">
+        <ul id="tp">
+            <li id="sp">All Practice Problems</li>
+            <li>Recent Contest Problems</li>
+        </ul>
+        <br>
+        <hr>
+    </div>
+    <div id="bod">
+    
+   
+    <div id="sidep" class="rut
+    ">
+        <div id="ser" class="rt">
+            Search Problems
+        </div>
+       
+        <div id="diff" class="rt">
+            <p id="pro">Problem Difficulty Level</p>
+            <select id="der"> 
+                <option value="0 - 5001">0-5001</option>
+            </select>
+        </div>
+    <div id="hap" class="rtpy">
+        Topics
+        <ul id="lko">
+        <li id="pt">Popular Topics</li>
+        <li id="tag">Tags</li>
+        </ul>
+        <form action="prandhi">
+            <button type="reset" id="ren">Clear</button> <br>
+
+            
+           <div class="ikl"> <input type="radio" class="hip">Basic Programming <br><br>
+           <input type="radio" class="hip">Arrays<br><br>
+           <input type="radio" class="hip">Strings<br><br>
+           <input type="radio" class="hip">Math<br><br>
+           <input type="radio" class="hip">Sorting<br><br>
+           <input type="radio" class="hip"> Binary Search<br><br>
+           <input type="radio" class="hip">Dats Structures<br><br>
+           <input type="radio" class="hip">Binary Tree<br><br>
+           <input type="radio" class="hip">Greedy Algorithms<br><br>
+            
+
+        </form>
+    </div>
+    </div>
+</div>
+<div id="main" class="rut">
+    <div> Difficulty: <input type="text" placeholder="       0-5001" id="des"></div><br>
+    <div> Popular Topics: <input type="text" placeholder="       arrays" id="des"></div><br> <br>
+  <div>
+    <table>
+        <thead>        <tr> 
+            <th class="headi">Code</th>
+            <th class="headi">Code</th>
+            <th class="headi">Code</th>
+            <th class="headi">Code</th>
+            <th class="headi">Code</th>
+        </tr>
+    </thead>
+
+        <tr> 
+            <th class="rowi">Code</th>
+            <th class="rowi">Code</th>
+            <th class="rowi">Code</th>
+            <th class="rowi">Code</th>
+            <th class="rowi">Code</th>
+        </tr>
+        <tr> 
+            <th class="rowi">Code</th>
+            <th class="rowi">Code</th>
+            <th class="rowi">Code</th>
+            <th class="rowi">Code</th>
+            <th class="rowi">Code</th>
+        </tr>
+        <tr> 
+            <th class="rowi">Code</th>
+            <th class="rowi">Code</th>
+            <th class="rowi">Code</th>
+            <th class="rowi">Code</th>
+            <th class="rowi">Code</th>
+        </tr>
+    </table>
+  </div>
+  </div>
+</div>  
+</div>
+</body>
+</html>
